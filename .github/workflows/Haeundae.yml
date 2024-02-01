@@ -31,7 +31,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script 
-        run: python haehundae.py
+        run: python haeundae.py
 
       - name: Deploy to Cafe24 Web Hosting via FTP
         run: nohup python deploy_script.py &
